@@ -5,6 +5,8 @@ public class Test {
 	//Método principal para instanciar mis clases
 	public static void main(String[] args) {
 		
+		/*
+		
 		//Instancia de Persona
 		Persona Felipe = new Persona("Felipe", "Maqueda", (byte)31, "5512345678", "felipe@mail.com");
 		
@@ -24,12 +26,20 @@ public class Test {
 		System.out.println("*****************************");
 		System.out.println(Chencho);
 		
-		
+		*/
 		
 		//Instancia de un paciente con datos obligatorios
 		Paciente Masiosare = new Paciente("MAS12345", false, false);
 		System.out.println("**********************");
 		System.out.println(Masiosare);
+		
+		//Cambiar el false de seguroMedico a true
+		//Masiosare.seguroGastosMedicos = true;
+		
+		System.out.println("***************************");
+		System.out.println(Masiosare);
+		
+		
 		
 
 	}//main

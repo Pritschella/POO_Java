@@ -6,7 +6,7 @@ public class Paciente {
 	String numeroSeguroSocial;
 	String tipoSangre;
 	boolean expediente;
-	boolean seguroGastosMedicos;
+	private boolean seguroGastosMedicos;
 	String cita;
 	String doctorAsginado;
 	boolean alergias;
@@ -42,7 +42,16 @@ public class Paciente {
 				+ expediente + ", seguroGastosMedicos=" + seguroGastosMedicos + ", cita=" + cita + ", doctorAsginado="
 				+ doctorAsginado + ", alergias=" + alergias + "]";
 	}
-	
+
+
+	//getter
+	public boolean getSeguroGastosMedicos() {
+		return seguroGastosMedicos;
+	}
+	//seter
+	public void setSeguroGastosMedicos(boolean seguroGastosMedicos) {
+		this.seguroGastosMedicos = seguroGastosMedicos;
+	}
 	
 	
 	
